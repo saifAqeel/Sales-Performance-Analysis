@@ -57,7 +57,7 @@ Understanding monthly sales patterns helps identify seasonal trends and periods 
 
 **Dashboard Visualization:**
 
-![Product Performance](Screenshots/03_Product_Analysis.png)
+![Product Performance](Screenshots/02_Product_Analysis.png)
 
 **Key Findings:**
 - MacBook Pro Laptop generated approximately **$8.04M**, contributing around **23.3% of total revenue**.
@@ -79,7 +79,7 @@ Product-level analysis helps identify major revenue contributors and distinguish
 
 **Dashboard Visualization:**
 
-![Geographical Analysis](Screenshots/04_Geographical_Analysis.png)
+![Geographical Analysis](Screenshots/03_Geographical_Analysis.png)
 
 **Key Findings:**
 - [Insert your highest-performing city.]
@@ -101,7 +101,7 @@ Geographical analysis can help businesses identify strong markets and potential 
 
 **Dashboard Visualization:**
 
-![Purchasing Behaviour](Screenshots/05_Purchasing_Behaviour.png)
+![Purchasing Behaviour](Screenshots/04_Purchasing_Behaviour.png)
 
 **Key Findings:**
 - Observed a negative association between product price and quantity purchased.
@@ -123,7 +123,7 @@ Understanding purchasing behaviour helps businesses evaluate pricing patterns, c
 
 **Dashboard Visualization:**
 
-![Revenue Contribution](Screenshots/06_Revenue_Contribution.png)
+![Revenue Contribution](Screenshots/05_Revenue_Contribution.png)
 
 **Key Findings:**
 - [Insert the month with the largest positive revenue contribution.]
