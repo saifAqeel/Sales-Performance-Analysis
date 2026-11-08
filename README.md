@@ -24,129 +24,122 @@ The objective is to transform transactional sales data into meaningful business 
 | Units Sold | 209,079 |
 | Average Order Value | $193.30 |
 
-## 4. Business Analysis & Key Findings
+## Business Analysis & Key Insights
 
-### 4.1 Sales Trends Analysis
+### 1. Overall Sales Performance
 
-**Business Questions:**
-- How does revenue change over time?
-- Which months contribute most to overall sales?
-- How does monthly revenue compare with the previous month?
+![Sales Performance Dashboard](Screenshots/01_Sales_Overview.png)
 
-**Dashboard Visualization:**
+**Key Insights:**
 
-![Sales Trends](Screenshots/01_Sales_Overview.png)
+- Generated **$34.49M in total revenue** across approximately **185.95K orders**, with 209,079 units sold.
+- December recorded the highest monthly revenue at approximately **$4.6M**, while January recorded the lowest at around **$1.8M**.
+- October showed a notable increase in sales, reaching approximately **$3.7M**.
+- Revenue fluctuated throughout the year, indicating variations in monthly sales performance.
 
-**Key Findings:**
-- [Insert your highest-revenue month and its revenue.]
-- [Insert your lowest-revenue month and its revenue.]
-- [Explain any significant month-over-month changes.]
+**Business Takeaways:**
 
-**Business Implication:**
-
-Understanding monthly sales patterns helps identify seasonal trends and periods requiring additional sales or marketing attention.
+- Use historical sales trends to improve revenue forecasting.
+- Plan promotional campaigns around periods of weaker sales.
+- Monitor revenue and order volume together to evaluate business performance.
 
 ---
 
-### 4.2 Product Performance Analysis
+### 2. Product-Level Performance
 
-**Business Questions:**
-- Which products generate the highest revenue?
-- Which products sell the highest quantities?
-- Are high-volume products necessarily the highest revenue generators?
+![Product Performance Dashboard](Screenshots/02_Product_Analysis.png)
 
-**Dashboard Visualization:**
+**Key Insights:**
 
-![Product Performance](Screenshots/02_Product_Analysis.png)
+- **MacBook Pro Laptop** generated **$8.04M**, accounting for **23.30% of total revenue**.
+- iPhone and ThinkPad Laptop followed with **$4.79M (13.90%)** and **$4.13M (11.97%)**, respectively.
+- The top three products contributed approximately **49.17% of total revenue**.
+- AAA Batteries (4-pack) recorded the highest sales volume at **31,017 units**, contributing only **0.27% of revenue**.
+- AA Batteries (4-pack) sold **27,635 units**, contributing approximately **0.31% of revenue**.
 
-**Key Findings:**
-- MacBook Pro Laptop generated approximately **$8.04M**, contributing around **23.3% of total revenue**.
-- AAA Batteries recorded high sales volume but relatively low revenue.
-- [Insert another product-level finding from your dashboard.]
+**Business Takeaways:**
 
-**Business Implication:**
-
-Product-level analysis helps identify major revenue contributors and distinguish between high-volume products and high-value products.
+- Prioritise inventory planning for high-revenue products.
+- Explore bundling and cross-selling opportunities for high-volume, low-revenue items.
+- Evaluate products using both revenue contribution and quantity sold.
 
 ---
 
-### 4.3 Geographical Performance Analysis
+### 3. Geographical Sales Performance
 
-**Business Questions:**
-- Which cities contribute the most to total revenue?
-- How does sales performance vary geographically?
-- Which geographical markets have growth opportunities?
+![Geographical Performance Dashboard](Screenshots/03_Geographical_Analysis.png)
 
-**Dashboard Visualization:**
+**Key Insights:**
 
-![Geographical Analysis](Screenshots/03_Geographical_Analysis.png)
+- **San Francisco** ranked highest in both total revenue and order volume.
+- Los Angeles and New York City were the next major revenue contributors.
+- Atlanta recorded the highest average order value at **$187.86**.
+- New York City followed at **$187.50**, while Boston recorded the lowest at **$183.69**.
+- Average order values remained relatively close across the analysed cities.
 
-**Key Findings:**
-- [Insert your highest-performing city.]
-- [Insert your lowest-performing city.]
-- [Highlight any geographical differences in revenue.]
+**Business Takeaways:**
 
-**Business Implication:**
-
-Geographical analysis can help businesses identify strong markets and potential opportunities for targeted marketing and resource allocation.
+- Prioritise strong-performing cities when planning regional sales initiatives.
+- Investigate differences in average order value to identify upselling opportunities.
+- Use geographical comparisons to guide marketing and resource allocation.
 
 ---
 
-### 4.4 Customer Purchasing Behaviour Analysis
+### 4. Purchasing Behaviour Analysis
 
-**Business Questions:**
-- How does product price relate to quantity purchased?
-- What purchasing patterns can be observed?
-- During which periods is purchasing activity highest?
+![Purchasing Behaviour Dashboard](Screenshots/04_Purchasing_Behaviour.png)
 
-**Dashboard Visualization:**
+**Key Insights:**
 
-![Purchasing Behaviour](Screenshots/04_Purchasing_Behaviour.png)
+- Purchasing activity was concentrated during daytime and evening hours, with lower activity during early morning hours.
+- **8 PM recorded the highest hourly revenue**, at approximately **$2.41M**.
+- 7 PM and 9 PM generated approximately **$2.13M** and **$2.28M**, respectively.
+- 3 AM recorded the lowest hourly revenue at approximately **$145.76K**.
+- Tuesday generated the highest daily revenue at approximately **$5.09M**, while Thursday recorded the lowest at approximately **$4.84M**.
+- Revenue remained relatively consistent across weekdays.
 
-**Key Findings:**
-- Observed a negative association between product price and quantity purchased.
-- [Insert your peak purchasing period.]
-- [Add another finding from your customer or order analysis.]
+**Business Takeaways:**
 
-**Business Implication:**
-
-Understanding purchasing behaviour helps businesses evaluate pricing patterns, customer demand and potential product bundling opportunities.
-
----
-
-### 4.5 Revenue Contribution Analysis
-
-**Business Questions:**
-- How does each month contribute to cumulative revenue?
-- Which months make the largest contribution to overall sales?
-- How does monthly revenue build towards the annual total?
-
-**Dashboard Visualization:**
-
-![Revenue Contribution](Screenshots/05_Revenue_Contribution.png)
-
-**Key Findings:**
-- [Insert the month with the largest positive revenue contribution.]
-- [Insert the month with the smallest or negative contribution, if applicable.]
-- [Explain the overall cumulative revenue pattern.]
-
-**Business Implication:**
-
-Revenue contribution analysis helps identify the periods responsible for the largest additions to annual business performance.
+- Align staffing and order-processing capacity with peak purchasing hours.
+- Explore promotional campaigns during lower-activity periods.
+- Maintain consistent operational support throughout the week.
 
 ---
 
-## 5. Technical Implementation
+### 5. Revenue Contribution & Price–Quantity Analysis
 
-Key technical concepts used:
+![Revenue Contribution Dashboard](Screenshots/05_Revenue_Contribution.png)
 
-- Data cleaning and transformation using Power Query.
-- DAX measures for dynamic KPI calculations.
-- Time-based sales analysis.
-- Month-over-Month revenue comparisons.
-- Interactive slicers and filters.
-- Product and geographical analysis.
-- Correlation analysis between price and quantity.
+**Key Insights:**
+
+- The scatter plot indicates a negative association between average product price and total quantity ordered.
+- Lower-priced products, such as AAA Batteries and USB-C Charging Cables, recorded higher sales volumes.
+- Premium products, including MacBook Pro Laptop and ThinkPad Laptop, generated substantial revenue despite lower quantities sold.
+- MacBook Pro Laptop alone contributed **23.30% of total revenue**.
+- Monthly revenue contributions accumulated to approximately **$34.49M**.
+- December recorded the largest monthly contribution, while January recorded the smallest.
+
+**Business Takeaways:**
+
+- Evaluate pricing and sales volume together when assessing product performance.
+- Maintain a balanced portfolio of premium and high-volume products.
+- Use monthly revenue contribution patterns to support sales planning.
+
+**Analytical Consideration:** The price–quantity comparison is based on aggregated product-level data. It indicates an association, not proof that higher prices directly cause lower demand.
+
+---
+
+## Technical Skills & Implementation
+
+- **Power Query:** Data cleaning and transformation.
+- **Power BI:** Interactive dashboard development and data visualization.
+- **DAX:** Dynamic measures and KPI calculations.
+- **Time-Series Analysis:** Monthly revenue trends and comparisons.
+- **Product Analysis:** Revenue contribution and quantity analysis.
+- **Geographical Analysis:** City-level sales comparisons.
+- **Purchasing Behaviour:** Hourly and weekday sales patterns.
+- **Correlation Analysis:** Price and quantity relationship.
+- **Interactive Reporting:** Slicers, filters and dynamic visual interactions.
 
 ## 6. Project Files
 
